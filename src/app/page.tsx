@@ -11,7 +11,7 @@ import { ProjectCard } from "@/components/project-card";
 
 export const metadata: Metadata = {
   title: `${RESUME_DATA.name} | ${RESUME_DATA.about}`,
-  description: RESUME_DATA.summary,
+  description: RESUME_DATA.about,
 };
 
 export default function Page() {
@@ -94,9 +94,18 @@ export default function Page() {
         </div>
         <Section>
           <h2 className="text-xl font-bold">About</h2>
-          <p className="text-pretty font-mono text-sm text-muted-foreground">
+          {
+            RESUME_DATA.summary.map((desc,index)=> {
+              return (
+                <p key={index} className="text-pretty font-mono text-sm text-muted-foreground">
+                  {desc}
+                </p>
+              )
+            })
+          }
+          {/* <p className="text-pretty font-mono text-sm text-muted-foreground">
             {RESUME_DATA.summary}
-          </p>
+          </p> */}
         </Section>
         <Section>
           <h2 className="text-xl font-bold">Work Experience</h2>
