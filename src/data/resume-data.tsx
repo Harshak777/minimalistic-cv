@@ -20,88 +20,110 @@ import {
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Harshak Krishnaa Keerthipati",
+  initials: "KHK",
+  location: "Tempe, Arizona, MST",
+  locationLink: "https://www.google.com/maps/place/Tempe",
   about:
-    "Full Stack Engineer focused on building products with extra attention to detail",
+    "CS Grad at ASU",
   summary:
     "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+  avatarUrl: "/hk.jpeg",
+  // personalWebsiteUrl: "https://jarocki.me",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "kharshak777@gmail.com",
+    tel: "+16025825111",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/harshak777",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/kharshak777/",
         icon: LinkedInIcon,
       },
-      {
-        name: "X",
-        url: "https://x.com/BartoszJarocki",
-        icon: XIcon,
-      },
+      // {
+      //   name: "X",
+      //   url: "https://x.com/BartoszJarocki",
+      //   icon: XIcon,
+      // },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Arizona State University",
+      degree: "Master of Science in Computer Science",
+      start: "Aug. 2022",
+      end: "May. 2024",
+    },
+    {
+      school: "Amrita Vishwa Vidyapeetham",
+      degree: "Bachelor of Technology in Computer Science and Engineering",
+      start: "Jun. 2017",
+      end: "Aug. 2021",
     },
   ],
   work: [
     {
-      company: "Parabol",
-      link: "https://parabol.co",
+      company: "Fovus Corporation",
+      link: "https://www.linkedin.com/company/fovus/",
+      badges: ["Tempe, AZ"],
+      title: "Software Developer Intern",
+      // logo: ParabolLogo,
+      start: "Oct. 2023",
+      end: "Jan. 2024",
+      description:
+        [
+          "• Led the creation of thorough unit test cases and integrated API mocking for the HPC platform dashboard, ensuring meticulous testing and validation.",
+          "• Substantially improved overall platform stability by addressing warnings and errors, resulting in a noteworthy 70\% boost in codebase reliability.",
+          "• Established a streamlined GitHub Actions workflow for automated unit testing on commits, efficiently optimizing the development pipeline and ensuring ongoing codebase integrity."
+        ]
+    },
+    {
+      company: "Vanenburg",
+      link: "https://www.vanenburg.com",
+      badges: ["Coimbatore, India"],
+      title: "Associate Software Engineer",
+      // logo: ClevertechLogo,
+      start: "Jan. 2021",
+      end: "Jun. 2022",
+      description:
+      [
+        "• Led and coordinated a team of interns in the creation of a Google Chat Bot service, successfully integrating it with our Low Code/No Code platform thus substantially enhancing user workflow efficiency.",
+        "• Engineered and optimized a transformative grid widget module to enhance data administration, substantially expanding platform capabilities while eliminating coding constraints for improved user and developer accessibility.",
+        "• Devised a platform plugin architecture, seamlessly integrating third-party functions, thereby amplifying feature diversity and user tool compatibility."
+      ]
+    },
+    {
+      company: "Sprytech",
+      link: "https://www.sprytech.uk",
       badges: ["Remote"],
-      title: "Senior Full Stack Developer",
-      logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
+      title: "Blockchain Application Developer Intern",
+      // logo: JojoMobileLogo,
+      start: "Apr. 2020",
+      end: "Jan. 2021",
       description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
+      [
+        "• Designed and implemented an interoperable token transfer bridge, significantly enhancing cross-chain operability by enabling seamless exchange of native standard tokens between Ethereum and Hedera/Avalanche blockchains.",
+        "• Engineered a secure server utilizing the Hedera Token Service (HTS) protocol for the Vaccine Passport Application, ensuring tamper-proof storage and retrieval of COVID-19 vaccination data.",
+        "• Developed 'Play2Win', a trivia game which incentivizes and rewards players in crypto token based on their knowledge."
+      ]
     },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
-      description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
-      description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: [],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Creating and testing software for LTE base stations",
+      company: "Indian Institute of Information Technology",
+      link: "https://www.iiitdm.ac.in",
+      badges: ["Kancheepuram, India"],
+      title: "Research Intern",
+      // logo: NSNLogo,
+      start: "Apr. 2019",
+      end: "Jun. 2019",
+      description: 
+      [
+        "• Contributed to the creation of a Vehicle Tire Alignment System, utilizing Computer Vision techniques such as Hough circles and depth mapping through the implementation of the OpenCV Python package.",
+        "• This endeavor aimed to devise a cost-efficient methodology for angle measurement in the automotive sector, with the strategic goal of achieving a 60\% reduction in solution production costs.",
+      ]
     },
   ],
   skills: [
@@ -115,7 +137,7 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
-      title: "Consultly",
+      title: "Guardian - Angel",
       techStack: [
         "Side Project",
         "TypeScript",
@@ -124,8 +146,8 @@ export const RESUME_DATA = {
         "GraphQL",
         "WebRTC",
       ],
-      description: "A platform to build and grow your online business",
-      logo: ConsultlyLogo,
+      description: "helllo world",
+      // logo: ConsultlyLogo,
       link: {
         label: "consultly.com",
         href: "https://consultly.com/",

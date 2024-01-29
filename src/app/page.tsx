@@ -67,7 +67,7 @@ export default function Page() {
                   size="icon"
                   asChild
                 >
-                  <a href={social.url}>
+                  <a href={social.url} target="_blank">
                     <social.icon className="size-4" />
                   </a>
                 </Button>
@@ -132,7 +132,9 @@ export default function Page() {
                   </h4>
                 </CardHeader>
                 <CardContent className="mt-2 text-xs">
-                  {work.description}
+                  {work.description.map((desc,index)=>{
+                return  <div key={index}>  {desc}</div> 
+                  })}
                 </CardContent>
               </Card>
             );
@@ -187,10 +189,10 @@ export default function Page() {
 
       <CommandMenu
         links={[
-          {
-            url: RESUME_DATA.personalWebsiteUrl,
-            title: "Personal Website",
-          },
+          // {
+          //   url: RESUME_DATA.personalWebsiteUrl,
+          //   title: "Personal Website",
+          // },
           ...RESUME_DATA.contact.social.map((socialMediaLink) => ({
             url: socialMediaLink.url,
             title: socialMediaLink.name,
