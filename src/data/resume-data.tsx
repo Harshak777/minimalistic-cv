@@ -1,5 +1,7 @@
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
+console.log("Google id", process.env.GA_ID as String[0])
+
 export const RESUME_DATA = {
   name: "Harshak Krishnaa Keerthipati",
   initials: "KHK",
