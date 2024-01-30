@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/react";
-import { GoogleAnalytics } from '@next/third-parties/google'
+import { GoogleAnalytics } from '@next/third-parties/google';
+import { GCScript } from "next-goatcounter";
 import { Inter } from "next/font/google";
 
 import "./globals.css";
@@ -27,6 +28,7 @@ export default function RootLayout({
       <body>{children}</body>
       <Analytics />
       <GoogleAnalytics gaId={process.env.GA_ID as string} />
+      <GCScript siteUrl={"https://kharshak777.goatcounter.com/count"} />
     </html>
   );
 }

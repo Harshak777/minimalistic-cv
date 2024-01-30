@@ -2035,6 +2035,11 @@ natural-compare@^1.4.0:
   resolved "https://registry.npmjs.org/natural-compare/-/natural-compare-1.4.0.tgz"
   integrity sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==
 
+next-goatcounter@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/next-goatcounter/-/next-goatcounter-1.0.5.tgz#eddf85329c3cf2b1cb5a4d8f4a59171497f641c9"
+  integrity sha512-t2khpwRk1sDeZwth8wg0SF6MKAQ4lrUJ0qKFETmeEkIudcrc6hbMSvmhiVc8XrpTl13S4F2wWRH248FSyY8Gvw==
+
 next@^14.1.0:
   version "14.1.0"
   resolved "https://registry.yarnpkg.com/next/-/next-14.1.0.tgz#b31c0261ff9caa6b4a17c5af019ed77387174b69"
