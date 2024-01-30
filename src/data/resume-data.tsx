@@ -1,22 +1,3 @@
-import {
-  AmbitLogo,
-  BarepapersLogo,
-  BimLogo,
-  CDGOLogo,
-  ClevertechLogo,
-  ConsultlyLogo,
-  EvercastLogo,
-  Howdy,
-  JarockiMeLogo,
-  JojoMobileLogo,
-  Minimal,
-  MobileVikingsLogo,
-  MonitoLogo,
-  NSNLogo,
-  ParabolLogo,
-  TastyCloudLogo,
-  YearProgressLogo,
-} from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
@@ -32,7 +13,6 @@ export const RESUME_DATA = {
       "I am a seasoned professional with a strong commitment to excelling in Web Development, Cloud Computing, and Blockchain domains. My well-developed organizational skills and unwavering dedication to my craft position me to actively seek a challenging role. I am eager to acquire valuable practical knowledge while enhancing my expertise in the complex technical landscape.",
     ],
   avatarUrl: "/hk.jpeg",
-  // personalWebsiteUrl: "https://jarocki.me",
   contact: {
     email: "kharshak777@gmail.com",
     tel: "+16025825111",
@@ -47,11 +27,6 @@ export const RESUME_DATA = {
         url: "https://www.linkedin.com/in/kharshak777/",
         icon: LinkedInIcon,
       },
-      // {
-      //   name: "X",
-      //   url: "https://x.com/BartoszJarocki",
-      //   icon: XIcon,
-      // },
     ],
   },
   education: [
@@ -74,7 +49,6 @@ export const RESUME_DATA = {
       link: "https://www.linkedin.com/company/fovus/",
       badges: ["Tempe, AZ"],
       title: "Software Developer Intern",
-      // logo: ParabolLogo,
       start: "Oct. 2023",
       end: "Jan. 2024",
       description:
@@ -89,7 +63,6 @@ export const RESUME_DATA = {
       link: "https://www.vanenburg.com",
       badges: ["Coimbatore, India"],
       title: "Associate Software Engineer",
-      // logo: ClevertechLogo,
       start: "Jan. 2021",
       end: "Jun. 2022",
       description:
@@ -104,7 +77,6 @@ export const RESUME_DATA = {
       link: "https://www.sprytech.uk",
       badges: ["Remote"],
       title: "Blockchain Application Developer Intern",
-      // logo: JojoMobileLogo,
       start: "Apr. 2020",
       end: "Jan. 2021",
       description:
@@ -119,7 +91,6 @@ export const RESUME_DATA = {
       link: "https://www.iiitdm.ac.in",
       badges: ["Kancheepuram, India"],
       title: "Research Intern",
-      // logo: NSNLogo,
       start: "Apr. 2019",
       end: "Jun. 2019",
       description: 
@@ -160,7 +131,6 @@ export const RESUME_DATA = {
         "Material UI"
       ],
       description: "Health-focused app with personalized tracking and wellness insights.",
-      // logo: ConsultlyLogo,
       link: {
         label: "Github",
         href: "https://github.com/Shikhar97/Guardian-Angel/",
@@ -193,11 +163,6 @@ export const RESUME_DATA = {
       techStack: ["Academic Project", "EC2", "S3", "SQS", "Lambda", "DynamoDB", "Flask"],
       description:
         "Built image recognition app, EC2 autoscaling, and Lambda-triggered video analysis.",
-      // logo: JarockiMeLogo,
-      // link: {
-      //   label: "github.com",
-      //   href: "https://jarocki.me/",
-      // },
     },
     {
       title: "PaySol",
