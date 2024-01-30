@@ -149,11 +149,27 @@ export const RESUME_DATA = {
         "GraphQL",
         "WebRTC",
       ],
-      description: "helllo world",
+      description: "hello world",
       // logo: ConsultlyLogo,
       link: {
         label: "consultly.com",
         href: "https://consultly.com/",
+      },
+    },
+    {
+      title: "Marketplace",
+      techStack: [
+        "Solidity",
+        "Web3JS",
+        "ReactJS",
+        "Ganache",
+        "Truffle",
+        "Chai"
+      ],
+      description: "hello world",
+      link: {
+        label: "github.com",
+        href: "https://github.com/Three-Blocks-CSE598/three-blocks-marketplace",
       },
     },
     {
