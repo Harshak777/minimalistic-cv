@@ -152,13 +152,14 @@ export const RESUME_DATA = {
     {
       title: "Guardian - Angel",
       techStack: [
+        "Lead Android Developer",
         "Kotlin",
         "Firebase",
         "Google Maps API",
         "Google Places API",
         "Material UI"
       ],
-      description: "hello world",
+      description: "Health-focused app with personalized tracking and wellness insights.",
       // logo: ConsultlyLogo,
       link: {
         label: "Github",
@@ -168,6 +169,7 @@ export const RESUME_DATA = {
     {
       title: "Marketplace",
       techStack: [
+        "Lead Frontend Developer",
         "Solidity",
         "Web3JS",
         "ReactJS",
@@ -175,154 +177,38 @@ export const RESUME_DATA = {
         "Truffle",
         "Chai"
       ],
-      description: "hello world",
+      description: "Ethereum-based marketplace for secure, transparent cryptocurrency transactions.",
       link: {
-        label: "github.com",
+        label: "Github",
         href: "https://github.com/Three-Blocks-CSE598/three-blocks-marketplace",
       },
     },
     {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
+      title: "Data Streaming pipeline",
+      techStack: ["Academic Project", "Minikube", "Neo4j", "Kafka", "Zookeeper", "Python"],
+      description: "Created scalable data streaming on Kubernetes, distributing documents to Neo4j graph database.",
+    },
+    {
+      title: "Image Recognition using Deep Learning",
+      techStack: ["Academic Project", "EC2", "S3", "SQS", "Lambda", "DynamoDB", "Flask"],
       description:
-        "Browser extension that records everything happening in a web application",
-      logo: MonitoLogo,
+        "Built image recognition app, EC2 autoscaling, and Lambda-triggered video analysis.",
+      // logo: JarockiMeLogo,
+      // link: {
+      //   label: "github.com",
+      //   href: "https://jarocki.me/",
+      // },
+    },
+    {
+      title: "PaySol",
+      techStack: ["Full Stack Developer", "NextJS", "MongoDB", "PusherJS", "SolanaWeb3JS"],
+      description:
+        "Built decentralized messaging with Solana wallet for secure cryptocurrency transactions.",
+      // logo: ,
       link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
+        label: "paysol",
+        href: "https://goofy-darwin-392620.netlify.app/",
       },
-    },
-    {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
-      description:
-        "My personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
-      link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
-      },
-    },
-    {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Minimalist calendars, habit trackers and planners generator",
-      logo: Minimal,
-      link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
-      },
-    },
-    {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
-      link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
-      },
-    },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Parabol",
-      techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
-      link: {
-        label: "github.com",
-        href: "https://parabol.co/",
-      },
-    },
-    {
-      title: "Evercast",
-      techStack: [
-        "Lead Frontend Developer",
-
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
-      link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
-      },
-    },
-    {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
     },
   ],
 } as const;
