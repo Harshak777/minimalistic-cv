@@ -122,6 +122,18 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
+      title: "Email Verifier",
+      techStack: [
+        "Side Project",
+        "GoLang"
+      ],
+      description: "Email verifier application built using \"net\" package of go.",
+      link: {
+        label: "Github",
+        href: "https://github.com/Harshak777/go-email-verifier",
+      },
+    },
+    {
       title: "Guardian - Angel",
       techStack: [
         "Lead Android Developer",
