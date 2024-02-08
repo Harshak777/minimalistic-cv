@@ -9,7 +9,7 @@ export const RESUME_DATA = {
     "CS Grad at ASU",
   summary:
     [
-      "I am currently pursuing a Master of Science in Computer Science at Arizona State University as a graduate student graduating by May 2024. With over 1.5 years of relevant experience in full-stack and cloud software engineering, I am eager to explore new opportunities that will enable me to gain hands-on expertise in my chosen field.",
+      "I am currently pursuing a Master of Science in Computer Science at Arizona State University as a graduate student graduating by May 2024. With over 2 years of relevant experience in full-stack and cloud software engineering, I am eager to explore new opportunities that will enable me to gain hands-on expertise in my chosen field.",
       "I am a seasoned professional with a strong commitment to excelling in Web Development, Cloud Computing, and Blockchain domains. My well-developed organizational skills and unwavering dedication to my craft position me to actively seek a challenging role. I am eager to acquire valuable practical knowledge while enhancing my expertise in the complex technical landscape.",
     ],
   avatarUrl: "/hk.jpeg",
