@@ -28,7 +28,7 @@ export const RESUME_DATA = {
         icon: LinkedInIcon,
       },
     ],
-    resume: "/Harshak_Krishnaa_Keerthipati_Resume.pdf"
+    resume: "/resume.pdf"
   },
   education: [
     {
